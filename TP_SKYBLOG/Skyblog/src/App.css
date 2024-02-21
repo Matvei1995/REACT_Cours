@@ -1,0 +1,29 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(72, 136, 209);
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+h1{
+  text-align: center;
+}
+
+
+  .app{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+
+  }

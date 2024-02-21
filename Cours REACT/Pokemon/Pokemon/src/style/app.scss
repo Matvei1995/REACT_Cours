@@ -1,0 +1,44 @@
+body{
+    background-color: #EF3E3E;
+    color : white;
+    font-family: sans-serif;
+
+}
+
+.cardPokemonStyle{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: black;
+    max-width: 30vw;
+    padding-left: 20px;
+    margin:20px;
+    align-items: center;
+}
+
+.pokemonSize{
+ width: 20%;   
+}
+img{
+    width: 30%;
+}
+.stylePokemonDetail{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: lightcoral;
+    width: 50vw;
+    height: 80vh;
+    position: sticky; //Permet de faire bouger la card pokemon détails
+    top: 10px;
+&_card{
+    text-align: center; 
+}
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+}
